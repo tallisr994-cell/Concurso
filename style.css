@@ -1,0 +1,263 @@
+body{
+    text-align: center;
+    margin:auto;
+    font-family: Arial,sans-serif;
+    background: radial-gradient(circle at 75% 20%, #006eff, transparent 25%); 
+    background-color: #ffffff; 
+    background-image: url('imagem/proz_educacao_celular.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover; 
+    background-attachment:fixed;
+}
+h1{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin:20px;
+    height:57px;
+    border: 5px solid #006eff;
+    border-radius:250px;
+    background-color:#f7f7f7 ;
+    border-color: #0039a3;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000000;
+    text-align: center;
+    padding:10px;
+    margin:px;
+    height:57px;
+    border: 5px solid #006eff;
+    border-radius:250px;
+    background-color:#f7f7f7 ;
+    border-color: #0039a3;
+}
+button{
+     padding:20px;
+     margin:10px;
+    height:57px;
+    background-color:#f7f7f7;
+    border: 5px  solid #006eff;
+    border-radius:40px;
+    border-color:#0039a3;
+    display:block;
+    margin-left: 750px;
+    margin-right: 750px;
+    
+
+}
+.cor-botao{
+    color:#ffffff;
+    border-radius:10px;
+
+}
+b{
+
+  display:grid;
+    grid-column: span 2;
+    gap:3px;
+    text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   padding:10px;
+   margin:60px;
+   height:57px;
+   color:#000000;
+   border: 3px solid #006eff;
+   border-radius:250px;
+   background-color:#f7f7f7 ;
+   border-color: #0039a3;
+}
+Label{
+   color: #ffffff;
+}     
+
+.letra{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+   padding:10px;
+   margin:20px;
+   height:57px;
+   color:#000000;
+   margin-left: 500px;
+   margin-right: 500px;
+
+   box-sizing:border-box;
+   border: 5px solid #006eff;
+   border-radius:250px;
+   background-color:#f7f7f7 ;
+   border-color: #0039a3;
+   
+}
+.texto2{
+    text-align: center;
+    display:grid;
+    grid-column: span 2;
+    gap:3px;
+    width:70;
+    color: #006eff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin:20px;
+    height:57px;
+
+}
+.imagem{
+   text-align: center;
+}
+
+h3{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   color:#000000;
+   border: 5px solid #006eff;
+   border-radius:250px;
+   background-color:#f7f7f7 ;
+   border-color: #0039a3;
+   padding:10px;
+    margin:10px;
+    height:57px;
+}
+
+#botao3{
+    display:block;
+    padding:10px;
+    margin:10px;
+    height:57px;
+    margin-left: 920px;
+    margin-right: 920px;
+    
+
+}
+
+.imagem2{
+    text-align: center;
+}
+
+.mensagem-importante{
+    display:none;
+    color:#fdfeff;
+    font-size: 14px;
+    margin-top:5px;
+}
+
+input[type="checkbox"]:checked ~.mensagem-importante{
+    display:block;
+}
+
+.oculto{
+    display:none;
+     padding:10px;
+    margin:10px;
+    height:57px;
+    border-radius: 700px;
+   
+}
+input[type="checkbox"]:checked ~ .oculto{
+    display:inline-block;
+}
+#Visitar{
+    display: block;
+    padding:10px;
+    margin:10px;
+    height:57px;
+    margin-left: 920px;
+    margin-right: 920px;
+    
+    
+
+}
+p{
+    display:grid;
+    grid-column: span 2;
+    gap:3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin:60px;
+    height:57px;
+   color:#000000;
+   border: 5px solid #006eff;
+   border-radius:250px;
+   background-color:#f7f7f7 ;
+   border-color: #006eff;
+}
+.titulo{
+   color:#000000;
+   border: 5px solid #006eff;
+   border-radius:250px;
+   background-color:#f7f7f7 ;
+   border-color: #0039a3;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   padding:10px;
+   margin:10px;
+   height:57px;
+   margin-left: 500px;
+   margin-right: 500px;
+}
+
+.subtitulo{
+   color:#000000;
+   border: 5px solid #006eff;
+   border-radius:250px;
+   background-color:#fffdfd ;
+   border-color: #000000;
+   padding:10px;
+   margin:10px;
+   height:57px;
+}
+.titulo1{
+   color:#000000;
+   border: 5px solid #006eff;
+   border-radius:250px;
+   background-color:#f7f7f7 ;
+   border-color: #000000;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   padding:10px;
+   margin:10px;
+   height:57px;
+}
+.disponivel{
+color:white;
+}
+#localizar{
+ margin-left: 510px;
+    text-align: center;
+    
+}
+.solo{
+   color:#000000;
+   border: 5px solid #006eff;
+   border-radius:250px;
+   background-color:#f7f7f7 ;
+   border-color: #000000;
+   margin-left: 510px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   width: 100%;
+   max-width: 480px;
+   padding:10px;
+   margin:10px;
+   height:57px;
+   box-sizing:border-box;
+}
+.cheackbox{
+ text-align: center;
+ padding:10px;
+ margin:50px;
+ height:57px;
+}
+#oficial{
+    display:block;
+    padding:10px;
+    margin:10px;
+    height:57px;
+    margin-left: 920px;
+    margin-right: 920px;
+}
